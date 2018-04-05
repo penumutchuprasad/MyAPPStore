@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A042ED52074E48B00328C5A /* AppDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A042ED42074E48B00328C5A /* AppDetailVC.swift */; };
 		5A65FC2B207347790034A7EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A65FC2A207347790034A7EB /* AppDelegate.swift */; };
-		5A65FC2D207347790034A7EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A65FC2C207347790034A7EB /* ViewController.swift */; };
-		5A65FC30207347790034A7EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A65FC2E207347790034A7EB /* Main.storyboard */; };
+		5A65FC2D207347790034A7EB /* FeaturedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A65FC2C207347790034A7EB /* FeaturedVC.swift */; };
 		5A65FC32207347790034A7EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A65FC31207347790034A7EB /* Assets.xcassets */; };
 		5A65FC35207347790034A7EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A65FC33207347790034A7EB /* LaunchScreen.storyboard */; };
+		5A65FC3D20734D060034A7EB /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A65FC3C20734D060034A7EB /* CategoryCell.swift */; };
+		5A65FC3F20734E460034A7EB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A65FC3E20734E460034A7EB /* Extensions.swift */; };
+		5A65FC42207354DB0034A7EB /* CellFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A65FC41207354DB0034A7EB /* CellFiles.swift */; };
+		5A65FC44207363E30034A7EB /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A65FC43207363E30034A7EB /* Models.swift */; };
+		5A7085562074A53B00C719C3 /* ActivityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7085552074A53B00C719C3 /* ActivityVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A042ED42074E48B00328C5A /* AppDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailVC.swift; sourceTree = "<group>"; };
 		5A65FC27207347790034A7EB /* MyAPPStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAPPStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A65FC2A207347790034A7EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5A65FC2C207347790034A7EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5A65FC2F207347790034A7EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A65FC2C207347790034A7EB /* FeaturedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedVC.swift; sourceTree = "<group>"; };
 		5A65FC31207347790034A7EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A65FC34207347790034A7EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A65FC36207347790034A7EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A65FC3C20734D060034A7EB /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		5A65FC3E20734E460034A7EB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5A65FC41207354DB0034A7EB /* CellFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellFiles.swift; sourceTree = "<group>"; };
+		5A65FC43207363E30034A7EB /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		5A7085552074A53B00C719C3 /* ActivityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +48,7 @@
 		5A65FC1E207347790034A7EB = {
 			isa = PBXGroup;
 			children = (
+				5A65FC40207354B30034A7EB /* Cells */,
 				5A65FC29207347790034A7EB /* MyAPPStore */,
 				5A65FC28207347790034A7EB /* Products */,
 			);
@@ -54,14 +65,26 @@
 		5A65FC29207347790034A7EB /* MyAPPStore */ = {
 			isa = PBXGroup;
 			children = (
+				5A65FC3E20734E460034A7EB /* Extensions.swift */,
 				5A65FC2A207347790034A7EB /* AppDelegate.swift */,
-				5A65FC2C207347790034A7EB /* ViewController.swift */,
-				5A65FC2E207347790034A7EB /* Main.storyboard */,
+				5A65FC2C207347790034A7EB /* FeaturedVC.swift */,
+				5A042ED42074E48B00328C5A /* AppDetailVC.swift */,
 				5A65FC31207347790034A7EB /* Assets.xcassets */,
 				5A65FC33207347790034A7EB /* LaunchScreen.storyboard */,
 				5A65FC36207347790034A7EB /* Info.plist */,
+				5A65FC43207363E30034A7EB /* Models.swift */,
+				5A7085552074A53B00C719C3 /* ActivityVC.swift */,
 			);
 			path = MyAPPStore;
+			sourceTree = "<group>";
+		};
+		5A65FC40207354B30034A7EB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5A65FC3C20734D060034A7EB /* CategoryCell.swift */,
+				5A65FC41207354DB0034A7EB /* CellFiles.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,7 +114,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Leela Prasad";
 				TargetAttributes = {
 					5A65FC26207347790034A7EB = {
@@ -125,7 +148,6 @@
 			files = (
 				5A65FC35207347790034A7EB /* LaunchScreen.storyboard in Resources */,
 				5A65FC32207347790034A7EB /* Assets.xcassets in Resources */,
-				5A65FC30207347790034A7EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,22 +158,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A65FC2D207347790034A7EB /* ViewController.swift in Sources */,
+				5A65FC42207354DB0034A7EB /* CellFiles.swift in Sources */,
+				5A042ED52074E48B00328C5A /* AppDetailVC.swift in Sources */,
+				5A65FC2D207347790034A7EB /* FeaturedVC.swift in Sources */,
 				5A65FC2B207347790034A7EB /* AppDelegate.swift in Sources */,
+				5A65FC44207363E30034A7EB /* Models.swift in Sources */,
+				5A65FC3D20734D060034A7EB /* CategoryCell.swift in Sources */,
+				5A7085562074A53B00C719C3 /* ActivityVC.swift in Sources */,
+				5A65FC3F20734E460034A7EB /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5A65FC2E207347790034A7EB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5A65FC2F207347790034A7EB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5A65FC33207347790034A7EB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -177,6 +197,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -184,6 +205,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -234,6 +256,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -241,6 +264,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
